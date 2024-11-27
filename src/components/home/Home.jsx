@@ -6,7 +6,9 @@ function Home() {
   return (
     <div>
       <Banner></Banner>
-      <About></About>
+      <div className="mt-10 md:mt-0">
+        <About></About>
+      </div>
     </div>
   );
 }
