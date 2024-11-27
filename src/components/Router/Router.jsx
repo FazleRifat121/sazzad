@@ -1,10 +1,10 @@
 // Importing from react-router-dom
-import Banner from "../banner/Banner";
-import About from "../about/About";
+
 import Projects from "../projects/Projects";
 
 import MainLayout from "../mainLayout/MainLayout";
 import { BrowserRouter, Route, Routes } from "react-router";
+import Home from "../home/Home";
 
 function Router() {
   return (
@@ -17,7 +17,7 @@ function Router() {
         <Route path="/" element={<MainLayout />}>
           {" "}
           {/* Main Layout */}
-          <Route index element={<Banner />} />
+          <Route index element={<Home />} />
           {/* <Route path="about" element={<About />} /> */}
           {/* <Route path="education" element={<Education />} /> */}
           <Route path="projects" element={<Projects />} />
