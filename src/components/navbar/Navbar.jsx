@@ -8,11 +8,11 @@ const Navbar = () => {
           Home
         </NavLink>
       </li>
-      <li>
+      {/* <li>
         <NavLink to="/about" className="hover:underline" end>
           About
         </NavLink>
-      </li>
+      </li> */}
       <li>
         <NavLink to="/education" className="hover:underline text-red-600" end>
           Education
