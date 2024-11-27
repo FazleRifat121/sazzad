@@ -11,13 +11,13 @@ const container = (delay) => ({
 const Banner = () => {
   return (
     <div className="md:hero h-screen">
-      <div className="max-w-[1280px] flex items-center justify-center flex-col lg:flex-row-reverse ">
+      <div className="max-w-[1280px] flex items-center justify-center flex-col lg:flex-row-reverse gap-x-20">
         <motion.img
           initial={{ x: 100, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.5, delay: 1.8 }}
           src={img}
-          className="w-[500px] md:max-w-xl rounded-lg "
+          className="max-w-sm md:max-w-xl rounded-full"
         />
         <div>
           {/* h1  */}
