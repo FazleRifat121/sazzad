@@ -28,11 +28,6 @@ const Navbar = () => {
           Project
         </NavLink>
       </li>
-      <li>
-        <NavLink to="/contact" className="hover:underline text-red-600" end>
-          Contact
-        </NavLink>
-      </li>
     </>
   );
   return (

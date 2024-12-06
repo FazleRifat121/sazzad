@@ -1,4 +1,5 @@
 import Navbar from "../navbar/Navbar";
+import Contact from "../contact/Contact";
 import { Outlet } from "react-router";
 
 const MainLayout = () => {
@@ -11,6 +12,7 @@ const MainLayout = () => {
       <div className="container mx-auto px-8 ">
         <Navbar></Navbar>
         <Outlet></Outlet>
+        <Contact></Contact>
       </div>
     </div>
   );
