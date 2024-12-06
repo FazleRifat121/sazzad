@@ -1,8 +1,9 @@
 import { motion } from "framer-motion";
+import { Link } from "react-router";
 const Project = ({ item }) => {
-  const { title, img, description, link, tech } = item;
+  const { id, title, img, description } = item;
   return (
-    <a href={link} target="_blank">
+    <Link to={`/projects/${id}`}>
       <div className="mb-8 flex flex-wrap lg:justify-center">
         <div className="w-full lg:w-1/2">
           <motion.img
@@ -24,17 +25,9 @@ const Project = ({ item }) => {
         >
           <h6 className="mb-6 font-semibold">{title}</h6>
           <p className="mb-4 text-neutral-400">{description}</p>
-          {tech.map((i, index) => (
-            <span
-              key={index}
-              className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900"
-            >
-              {i}
-            </span>
-          ))}
         </motion.div>
       </div>
-    </a>
+    </Link>
   );
 };
 

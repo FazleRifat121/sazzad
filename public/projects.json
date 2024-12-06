@@ -1,26 +1,32 @@
 [
   {
     "id": 1,
-    "title": "Portfolio Website",
-    "description": "A personal portfolio to showcase my skills and projects. Designed with a clean layout and responsive design.",
-    "img": "https://i.ibb.co.com/DkmQTNP/Screenshot-2.png",
-    "link": "https://sami16.netlify.app/",
-    "tech": ["HTML", "CSS", "Tailwind", "JavaScript", "React"]
+    "title": "Personal Portfolio Website",
+    "description": "A responsive portfolio website showcasing my skills, projects, and contact information. Built with React, Tailwind CSS, and hosted on Netlify.",
+    "img": "https://example.com/portfolio-img1.jpg",
+    "img1": "https://example.com/portfolio-img2.jpg",
+    "img2": "https://example.com/portfolio-img3.jpg",
+    "img3": "https://example.com/portfolio-img4.jpg"
   },
   {
     "id": 2,
-    "title": "E-commerce Store",
-    "description": "An e-commerce site featuring product listings, a shopping cart, and user authentication.",
-    "img": "https://i.ibb.co.com/H2MCvHz/Screenshot-3.png",
-    "link": "https://lustrous-creponne-bec2ac.netlify.app/",
-    "tech": ["HTML", "CSS", "Bootstrap"]
+    "title": "E-commerce Landing Page",
+    "description": "A modern landing page for an e-commerce website. Designed using HTML, CSS, and JavaScript with a focus on clean UI and optimized user experience.",
+    "img": "https://example.com/ecommerce-img1.jpg",
+    "img1": "https://example.com/ecommerce-img2.jpg",
+    "img2": "https://example.com/ecommerce-img3.jpg",
+    "img3": "https://example.com/ecommerce-img4.jpg",
+    "img4": "https://example.com/ecommerce-img5.jpg"
   },
   {
     "id": 3,
-    "title": "Landing Page",
-    "description": "A landing page designed to promote a product, featuring responsive design and interactive elements.",
-    "img": "https://i.ibb.co.com/mJwp4kj/Screenshot-1.png",
-    "link": "https://frolicking-taffy-336307.netlify.app/",
-    "tech": ["HTML", "CSS", "Bootstrap"]
+    "title": "Blog Web Application",
+    "description": "A blog platform where users can view, create, and manage posts. Developed using React and Bootstrap with JSON-based mock backend.",
+    "img": "https://example.com/blog-img1.jpg",
+    "img1": "https://example.com/blog-img2.jpg",
+    "img2": "https://example.com/blog-img3.jpg",
+    "img3": "https://example.com/blog-img4.jpg",
+    "img4": "https://example.com/blog-img5.jpg",
+    "img5": "https://example.com/blog-img6.jpg"
   }
 ]
