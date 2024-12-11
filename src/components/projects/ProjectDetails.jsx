@@ -26,12 +26,14 @@ const projectData = [
     details:
       "UniGuide is a Java-based application tailored to assist students in making informed decisions about their higher education. This application provides a curated list of universities in Bangladesh, along with detailed information such as courses offered, admission requirements, and rankings. It uses a structured data handling approach to manage large volumes of university data efficiently. The user-friendly interface allows students to search and filter universities based on specific criteria, such as location, field of study, or academic scores. Future updates aim to expand its scope to include universities from other countries, transforming it into a global university recommendation tool. UniGuide demonstrates the effective use of Java for managing data-heavy applications and highlights my commitment to addressing real-world challenges faced by students.",
     imgs: [
-      "https://i.ibb.co.com/p0wvKbT/7872e67f-a32b-4993-b367-0b7703b1a749.jpg",
-      "https://i.ibb.co.com/gM2YGsC/f3e96807-e299-46ca-bdce-1f166fb37037.jpg",
-      "https://i.ibb.co.com/QKV16dx/7636b477-a74c-45f3-a619-5666f06623c9.jpg",
-      "https://i.ibb.co.com/JHm01P7/03894f18-67cb-45fd-8606-370489285729.jpg",
+      "https://i.ibb.co.com/p0wvKbT/7872e67f-a32b-4993-b367-0b7703b1a749.jpg", //1
+      "https://i.ibb.co.com/gM2YGsC/f3e96807-e299-46ca-bdce-1f166fb37037.jpg", //2
+
       "https://i.ibb.co.com/9T3m488/811d8561-6d41-4d07-a474-388e470742b4.jpg",
+
       "https://i.ibb.co.com/z6zbxx1/588bc5fe-5b92-4656-8afa-ba70828d3bff.jpg",
+      "https://i.ibb.co.com/JHm01P7/03894f18-67cb-45fd-8606-370489285729.jpg", //5
+      "https://i.ibb.co.com/QKV16dx/7636b477-a74c-45f3-a619-5666f06623c9.jpg", //6
     ],
   },
   {
@@ -42,12 +44,14 @@ const projectData = [
     details:
       "The Inventory Management System is a robust application developed in C# to simplify store management tasks. It enables users to perform essential operations, including creating, reading, updating, and deleting product records. Each product is assigned a unique ID, ensuring accurate tracking and management. The system allows store owners to monitor stock levels, organize product details, and streamline inventory processes effectively. With a focus on ease of use, the application features a clean interface that minimizes the learning curve for non-technical users. It incorporates error-handling mechanisms to prevent data inconsistencies and ensure reliability. The project is an excellent example of how C# can be utilized to build practical solutions for small to medium-sized businesses, highlighting my ability to develop applications that address real-world business needs",
     imgs: [
-      "https://i.ibb.co.com/DYFL8L7/e4d8ea0a-6068-48b1-888e-3e464ab44169.jpg",
-      "https://i.ibb.co.com/QQj6yNF/deef9fee-7ea9-46ba-9240-688d8b6398ce.jpg",
-      "https://i.ibb.co.com/CBYjj5m/d24a6d29-ba96-4f3a-b2ef-e8a2c9882359.jpg",
-      "https://i.ibb.co.com/QHhVmv4/b6bd50fd-ac70-4976-ad75-7c8b1aa67950.jpg",
-      "https://i.ibb.co.com/kcsrPcs/9755312e-08ad-45fd-ad3d-919e220122f8.jpg",
-      "https://i.ibb.co.com/7GP9L0b/6912b356-7ca1-4d5d-8e50-e23aeb90dbd2.jpg",
+      "https://i.ibb.co.com/Hz4fn27/Whats-App-Image-2024-12-07-at-1-27-29-PM.jpg",
+      "https://i.ibb.co.com/bRVMTRT/Whats-App-Image-2024-12-07-at-1-27-30-PM.jpg",
+      "https://i.ibb.co.com/kgm0NSW/Whats-App-Image-2024-12-07-at-1-27-30-PM-1.jpg",
+      "https://i.ibb.co.com/z2rYc4x/Whats-App-Image-2024-12-07-at-1-27-30-PM-2.jpg",
+      "https://i.ibb.co.com/D5fwXRk/Whats-App-Image-2024-12-07-at-1-27-31-PM.jpg",
+      "https://i.ibb.co.com/yqD9qSw/Whats-App-Image-2024-12-07-at-1-27-31-PM-1.jpg",
+      "https://i.ibb.co.com/Qkh3ntY/Whats-App-Image-2024-12-07-at-1-27-31-PM-2.jpg",
+      "https://i.ibb.co.com/W2GWGfH/Whats-App-Image-2024-12-07-at-1-27-32-PM.jpg",
     ],
   },
 ];
