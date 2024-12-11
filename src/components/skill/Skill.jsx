@@ -1,5 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { FaJava } from "react-icons/fa";
+import { MdFlutterDash } from "react-icons/md";
 const Skill = () => {
   return (
     <div>
@@ -8,14 +10,13 @@ const Skill = () => {
         <div className="flex flex-wrap">
           <div className="w-full lg:w-1/2 lg:p-8">
             <div className="flex items-center justify-center">
-              <motion.img
+              <motion.div
                 initial={{ x: -100, opacity: 0 }}
                 whileInView={{ x: 0, opacity: 1 }}
                 transition={{ duration: 0.5 }}
-                src=""
-                alt="about"
-                className="rounded-2xl max-w-sm"
-              />
+              >
+                <FaJava className="text-7xl"></FaJava>
+              </motion.div>
             </div>
           </div>
           <div className="w-full lg:w-1/2">
@@ -26,29 +27,50 @@ const Skill = () => {
                 whileInView={{ x: 0, opacity: 1 }}
                 transition={{ duration: 0.5 }}
               >
-                Sazzad Hossain Hello, I’m Md. Sazzad Hossain, a passionate and
-                aspiring mobile app developer with a strong foundation in
-                Computer Science and Engineering. Currently in my 8th semester
-                at American International University – Bangladesh. I have
-                developed hands-on experience in Object-Oriented Programming,
-                competitive programming, and Flutter app development. I’ve
-                worked on various projects that showcase my skills, including
-                UniGuide, a university admission guide app built in Java, a Roll
-                Dice App created using Flutter and a Inventory Management System
-                using C#. Through these projects, I have honed my technical
-                abilities, problem-solving skills, and creativity in building
-                efficient and user-friendly applications. In addition to my
-                technical expertise, I have experience collaborating with teams
-                and organizing events as a former member of the AIUB Performing
-                Arts Club, where I developed strong communication and teamwork
-                skills. Volunteering with Sheba Foundation has also taught me
-                adaptability and the importance of giving back to the community.
-                I am highly motivated to start my career as a mobile app
-                developer and am enthusiastic about leveraging my skills to
-                create innovative solutions. With a strong work ethic, a passion
-                for coding, and a drive to tackle challenges, I aim to
-                contribute meaningfully to the tech industry. Let’s connect to
-                explore how I can bring value to your team or project!
+                Java is a versatile, object-oriented programming language widely
+                used for building platform-independent applications. Developed
+                by Sun Microsystems in 1995 (now owned by Oracle), Java's "write
+                once, run anywhere" capability allows code to run on any device
+                with a Java Virtual Machine (JVM). It is commonly used for web
+                development, mobile apps (especially Android), enterprise
+                software, and server-side applications. Known for its
+                simplicity, robustness, and extensive libraries, Java remains a
+                popular choice for developers worldwide.
+              </motion.p>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-wrap">
+          <div className="w-full lg:w-1/2 lg:p-8">
+            <div className="flex items-center justify-center">
+              <motion.div
+                initial={{ x: -100, opacity: 0 }}
+                whileInView={{ x: 0, opacity: 1 }}
+                transition={{ duration: 0.5 }}
+              >
+                <MdFlutterDash className="text-7xl"></MdFlutterDash>
+              </motion.div>
+            </div>
+          </div>
+          <div className="w-full lg:w-1/2">
+            <div className="flex justify-center lg:justify-start">
+              <motion.p
+                className="my-2 max-w-xl py-6 text-[20.3px]"
+                initial={{ x: 100, opacity: 0 }}
+                whileInView={{ x: 0, opacity: 1 }}
+                transition={{ duration: 0.5 }}
+              >
+                Flutter is an open-source UI software development kit (SDK)
+                created by Google for building natively compiled applications
+                across multiple platforms, including mobile (iOS and Android),
+                web, and desktop (Windows, macOS, and Linux) from a single
+                codebase. It uses the Dart programming language and features a
+                rich set of pre-designed widgets for creating visually appealing
+                and high-performance user interfaces. Flutter's hot-reload
+                functionality enables developers to see changes in real-time,
+                enhancing productivity. It's widely used for its flexibility,
+                fast development cycle, and ability to deliver consistent
+                experiences across different platforms.
               </motion.p>
             </div>
           </div>
