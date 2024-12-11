@@ -6,6 +6,7 @@ import MainLayout from "../mainLayout/MainLayout";
 import { BrowserRouter, Route, Routes } from "react-router";
 import Home from "../home/Home";
 import ProjectDetails from "../projects/ProjectDetails";
+import Skill from "../skill/Skill";
 
 function Router() {
   return (
@@ -21,6 +22,7 @@ function Router() {
           <Route index element={<Home />} />
           {/* <Route path="about" element={<About />} /> */}
           {/* <Route path="education" element={<Education />} /> */}
+          <Route path="skill" element={<Skill />} />
           <Route path="projects" element={<Projects />} />
           <Route path="projects/:id" element={<ProjectDetails />} />
         </Route>
