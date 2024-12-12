@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { FaJava } from "react-icons/fa";
-import { MdFlutterDash } from "react-icons/md";
+import { RiFlutterFill } from "react-icons/ri";
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3 } from "react-icons/fa";
 import { BsMicrosoftTeams } from "react-icons/bs";
@@ -29,7 +29,7 @@ const Skill = () => {
                 transition={{ duration: 0.5 }}
                 className="flex justify-center items-center flex-col gap-5"
               >
-                <MdFlutterDash className="text-7xl"></MdFlutterDash>
+                <RiFlutterFill className="text-7xl"></RiFlutterFill>
                 <h3 className="text-4xl">Flutter(Dirt)</h3>
               </motion.div>
             </div>
