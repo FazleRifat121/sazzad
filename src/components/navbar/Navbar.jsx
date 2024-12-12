@@ -14,7 +14,7 @@ const Navbar = () => {
         </NavLink>
       </li> */}
       <li>
-        <NavLink to="/education" className="hover:underline text-red-600" end>
+        <NavLink to="/" className="hover:underline text-red-600" end>
           Education
         </NavLink>
       </li>
@@ -26,6 +26,16 @@ const Navbar = () => {
       <li>
         <NavLink to="/projects" className="hover:underline " end>
           Project
+        </NavLink>
+      </li>
+      <li>
+        <NavLink to="/" className="hover:underline text-red-600" end>
+          Experience
+        </NavLink>
+      </li>
+      <li>
+        <NavLink to="/" className="hover:underline text-red-600" end>
+          Achievement
         </NavLink>
       </li>
     </>

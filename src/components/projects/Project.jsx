@@ -5,7 +5,7 @@ const Project = ({ item }) => {
   return (
     <Link to={`/projects/${id}`}>
       <div className="mb-8 flex flex-wrap lg:justify-center">
-        <div className="w-full lg:w-1/2">
+        <div className="w-full lg:w-1/3">
           <motion.img
             initial={{ x: -100, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
@@ -18,7 +18,7 @@ const Project = ({ item }) => {
           />
         </div>
         <motion.div
-          className="w-full max-w-xl lg:w-3/4"
+          className="w-full max-w-xl lg:w-1/4"
           initial={{ x: 100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.5 }}

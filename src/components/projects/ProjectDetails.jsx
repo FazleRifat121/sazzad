@@ -29,11 +29,12 @@ const projectData = [
       "https://i.ibb.co.com/p0wvKbT/7872e67f-a32b-4993-b367-0b7703b1a749.jpg", //1
       "https://i.ibb.co.com/gM2YGsC/f3e96807-e299-46ca-bdce-1f166fb37037.jpg", //2
 
-      "https://i.ibb.co.com/9T3m488/811d8561-6d41-4d07-a474-388e470742b4.jpg",
+      "https://i.ibb.co.com/9T3m488/811d8561-6d41-4d07-a474-388e470742b4.jpg", //3
 
-      "https://i.ibb.co.com/z6zbxx1/588bc5fe-5b92-4656-8afa-ba70828d3bff.jpg",
-      "https://i.ibb.co.com/JHm01P7/03894f18-67cb-45fd-8606-370489285729.jpg", //5
+      "https://i.ibb.co.com/z6zbxx1/588bc5fe-5b92-4656-8afa-ba70828d3bff.jpg", //4
+      " https://i.ibb.co.com/xCqzLfx/Whats-App-Image-2024-12-07-at-1-19-23-PM.jpg", //5
       "https://i.ibb.co.com/QKV16dx/7636b477-a74c-45f3-a619-5666f06623c9.jpg", //6
+      "https://i.ibb.co.com/mvQdtWq/Whats-App-Image-2024-12-07-at-1-19-23-PM-1.jpg", //7
     ],
   },
   {
@@ -51,7 +52,6 @@ const projectData = [
       "https://i.ibb.co.com/D5fwXRk/Whats-App-Image-2024-12-07-at-1-27-31-PM.jpg",
       "https://i.ibb.co.com/yqD9qSw/Whats-App-Image-2024-12-07-at-1-27-31-PM-1.jpg",
       "https://i.ibb.co.com/Qkh3ntY/Whats-App-Image-2024-12-07-at-1-27-31-PM-2.jpg",
-      "https://i.ibb.co.com/W2GWGfH/Whats-App-Image-2024-12-07-at-1-27-32-PM.jpg",
     ],
   },
 ];
