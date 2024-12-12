@@ -2,7 +2,7 @@ import img from "../../assets/cover.jpg";
 import { motion } from "framer-motion";
 const About = () => {
   return (
-    <div className="border-b border-neutral-500 pb-4">
+    <div className="border-b border-neutral-500 pb-4 mt-10 lg:mt-0">
       <h1 className="text-4xl text-center my-20">
         About <span className="text-neutral-500">Me</span>
       </h1>

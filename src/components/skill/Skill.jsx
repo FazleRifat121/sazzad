@@ -6,12 +6,51 @@ import { FaHtml5 } from "react-icons/fa";
 import { FaCss3 } from "react-icons/fa";
 import { BsMicrosoftTeams } from "react-icons/bs";
 import { MdOutlineSyncProblem } from "react-icons/md";
-import { RiSpeakAiFill } from "react-icons/ri";
+import { FaTeamspeak } from "react-icons/fa6";
+import { SiCplusplus } from "react-icons/si";
+import { TbBrandCSharp } from "react-icons/tb";
+import { GiWeightLiftingUp } from "react-icons/gi";
 const Skill = () => {
   return (
     <div>
       <div className="border-b border-neutral-500 pb-4">
         <h1 className="text-4xl text-center my-20">Skill</h1>
+
+        {/* Flutter  */}
+        <div className="flex flex-wrap">
+          <div className="w-full lg:w-1/2 lg:p-8">
+            <div className="flex items-center justify-center">
+              <motion.div
+                initial={{ x: -100, opacity: 0 }}
+                whileInView={{ x: 0, opacity: 1 }}
+                transition={{ duration: 0.5 }}
+                className="flex justify-center items-center flex-col gap-5"
+              >
+                <MdFlutterDash className="text-7xl"></MdFlutterDash>
+                <h3 className="text-4xl">Flutter(Dirt)</h3>
+              </motion.div>
+            </div>
+          </div>
+          <div className="w-full lg:w-1/2">
+            <div className="flex justify-center lg:justify-start">
+              <motion.p
+                className="my-2 max-w-xl py-6 text-[20.3px]"
+                initial={{ x: 100, opacity: 0 }}
+                whileInView={{ x: 0, opacity: 1 }}
+                transition={{ duration: 0.5 }}
+              >
+                Proficient in building cross-platform mobile applications using
+                Flutter, with expertise in Dart programming. I specialize in
+                creating responsive, feature-rich applications with intuitive
+                user interfaces. I have hands-on experience integrating REST
+                APIs, implementing state management solutions like Provider, and
+                utilizing Firebase for backend services. My projects, such as
+                the Roll Dice App, highlight my ability to deliver engaging,
+                functional mobile apps.
+              </motion.p>
+            </div>
+          </div>
+        </div>
         {/* Java */}
         <div className="flex flex-wrap">
           <div className="w-full lg:w-1/2 lg:p-8">
@@ -35,53 +74,11 @@ const Skill = () => {
                 whileInView={{ x: 0, opacity: 1 }}
                 transition={{ duration: 0.5 }}
               >
-                Java is a versatile, object-oriented programming language widely
-                used for building platform-independent applications. Developed
-                by Sun Microsystems in 1995 (now owned by Oracle), Java's "write
-                once, run anywhere" capability allows code to run on any device
-                with a Java Virtual Machine (JVM). It is commonly used for web
-                development, mobile apps (especially Android), enterprise
-                software, and server-side applications. Known for its
-                simplicity, robustness, and extensive libraries, Java remains a
-                popular choice for developers worldwide.
-              </motion.p>
-            </div>
-          </div>
-        </div>
-        {/* Flutter  */}
-        <div className="flex flex-wrap">
-          <div className="w-full lg:w-1/2 lg:p-8">
-            <div className="flex items-center justify-center">
-              <motion.div
-                initial={{ x: -100, opacity: 0 }}
-                whileInView={{ x: 0, opacity: 1 }}
-                transition={{ duration: 0.5 }}
-                className="flex justify-center items-center flex-col gap-5"
-              >
-                <MdFlutterDash className="text-7xl"></MdFlutterDash>
-                <h3 className="text-4xl">Flutter</h3>
-              </motion.div>
-            </div>
-          </div>
-          <div className="w-full lg:w-1/2">
-            <div className="flex justify-center lg:justify-start">
-              <motion.p
-                className="my-2 max-w-xl py-6 text-[20.3px]"
-                initial={{ x: 100, opacity: 0 }}
-                whileInView={{ x: 0, opacity: 1 }}
-                transition={{ duration: 0.5 }}
-              >
-                Flutter is an open-source UI software development kit (SDK)
-                created by Google for building natively compiled applications
-                across multiple platforms, including mobile (iOS and Android),
-                web, and desktop (Windows, macOS, and Linux) from a single
-                codebase. It uses the Dart programming language and features a
-                rich set of pre-designed widgets for creating visually appealing
-                and high-performance user interfaces. Flutter's hot-reload
-                functionality enables developers to see changes in real-time,
-                enhancing productivity. It's widely used for its flexibility,
-                fast development cycle, and ability to deliver consistent
-                experiences across different platforms.
+                Strong foundation in Object-Oriented Programming (OOP) with
+                Java, enabling me to design and implement scalable, modular, and
+                maintainable software solutions. I developed UniGuide, a
+                university admission guide app, using Java, where I focused on
+                data organization and seamless user experience.
               </motion.p>
             </div>
           </div>
@@ -96,7 +93,7 @@ const Skill = () => {
                 transition={{ duration: 0.5 }}
                 className="flex justify-center items-center flex-col gap-5"
               >
-                <MdFlutterDash className="text-7xl"></MdFlutterDash>
+                <TbBrandCSharp className="text-7xl"></TbBrandCSharp>
                 <h3 className="text-4xl">C#</h3>
               </motion.div>
             </div>
@@ -127,7 +124,7 @@ const Skill = () => {
                 transition={{ duration: 0.5 }}
                 className="flex justify-center items-center flex-col gap-5"
               >
-                <MdFlutterDash className="text-7xl"></MdFlutterDash>
+                <SiCplusplus className="text-7xl"></SiCplusplus>
                 <h3 className="text-4xl">C++</h3>
               </motion.div>
             </div>
@@ -197,7 +194,7 @@ const Skill = () => {
                 transition={{ duration: 0.5 }}
                 className="flex justify-center items-center flex-col gap-5"
               >
-                <MdFlutterDash className="text-7xl"></MdFlutterDash>
+                <GiWeightLiftingUp className="text-7xl"></GiWeightLiftingUp>
                 <h3 className="text-4xl">Adaptability</h3>
               </motion.div>
             </div>
@@ -295,7 +292,7 @@ const Skill = () => {
                 transition={{ duration: 0.5 }}
                 className="flex justify-center items-center flex-col gap-5"
               >
-                <RiSpeakAiFill className="text-7xl"></RiSpeakAiFill>
+                <FaTeamspeak className="text-7xl"></FaTeamspeak>
                 <h3 className="text-4xl">Communication</h3>
               </motion.div>
             </div>
