@@ -2,6 +2,11 @@ import React from "react";
 import { motion } from "framer-motion";
 import { FaJava } from "react-icons/fa";
 import { MdFlutterDash } from "react-icons/md";
+import { FaHtml5 } from "react-icons/fa";
+import { FaCss3 } from "react-icons/fa";
+import { BsMicrosoftTeams } from "react-icons/bs";
+import { MdOutlineSyncProblem } from "react-icons/md";
+import { RiSpeakAiFill } from "react-icons/ri";
 const Skill = () => {
   return (
     <div>
@@ -153,7 +158,11 @@ const Skill = () => {
                 transition={{ duration: 0.5 }}
                 className="flex justify-center items-center flex-col gap-5"
               >
-                <MdFlutterDash className="text-7xl"></MdFlutterDash>
+                <div className="flex justify-center items-center flex-row">
+                  <FaHtml5 className="text-7xl"></FaHtml5>
+                  <p className="text-7xl">&nbsp;&&nbsp;</p>
+                  <FaCss3 className="text-7xl"></FaCss3>
+                </div>
                 <h3 className="text-4xl">HTML & CSS</h3>
               </motion.div>
             </div>
@@ -221,7 +230,7 @@ const Skill = () => {
                 transition={{ duration: 0.5 }}
                 className="flex justify-center items-center flex-col gap-5"
               >
-                <MdFlutterDash className="text-7xl"></MdFlutterDash>
+                <BsMicrosoftTeams className="text-7xl"></BsMicrosoftTeams>
                 <h3 className="text-4xl">Teamwork</h3>
               </motion.div>
             </div>
@@ -253,7 +262,7 @@ const Skill = () => {
                 transition={{ duration: 0.5 }}
                 className="flex justify-center items-center flex-col gap-5"
               >
-                <MdFlutterDash className="text-7xl"></MdFlutterDash>
+                <MdOutlineSyncProblem className="text-7xl"></MdOutlineSyncProblem>
                 <h3 className="text-4xl">Problem-Solving</h3>
               </motion.div>
             </div>
@@ -286,7 +295,7 @@ const Skill = () => {
                 transition={{ duration: 0.5 }}
                 className="flex justify-center items-center flex-col gap-5"
               >
-                <MdFlutterDash className="text-7xl"></MdFlutterDash>
+                <RiSpeakAiFill className="text-7xl"></RiSpeakAiFill>
                 <h3 className="text-4xl">Communication</h3>
               </motion.div>
             </div>
