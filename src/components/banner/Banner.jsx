@@ -18,7 +18,7 @@ const Banner = () => {
           animate={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.5, delay: 1.8 }}
           src={img}
-          className="max-w-sm md:max-w-xl rounded-full my-14"
+          className="max-w-sm md:max-w-lg rounded-full my-14"
         />
         <div>
           {/* h1  */}
@@ -26,7 +26,7 @@ const Banner = () => {
             variants={container(0.5)}
             initial="hidden"
             animate="visible"
-            className="text-5xl font-bold"
+            className="text-4xl font-bold"
           >
             Hi, I’m Sazzad!
           </motion.h1>
@@ -35,7 +35,7 @@ const Banner = () => {
             variants={container(1)}
             initial="hidden"
             animate="visible"
-            className="text-3xl font-bold pt-6 bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text tracking-tight text-transparent"
+            className="text-2xl font-bold pt-6 bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text tracking-tight text-transparent"
           >
             A Flutter Mobile App Developer passionate about creating seamless,
             user-focused mobile experiences.
@@ -47,9 +47,12 @@ const Banner = () => {
             animate="visible"
             className="py-6  "
           >
-            I specialize in designing and developing innovative solutions using
-            Flutter and Dart. Explore my journey, projects, and skills as I work
-            toward building the future of mobile applications.
+            As a passionate and dedicated Flutter developer, I aim to create
+            innovative and user-friendly mobile applications that solve
+            real-world problems. With a strong foundation in Flutter development
+            and a commitment to continuous learning, I strive to contribute to
+            dynamic projects and grow as a developer while delivering
+            high-quality, efficient solutions.
           </motion.p>
         </div>
       </div>
