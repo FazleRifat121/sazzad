@@ -53,6 +53,7 @@ const projectData = [
       "https://i.ibb.co.com/D5fwXRk/Whats-App-Image-2024-12-07-at-1-27-31-PM.jpg",
       "https://i.ibb.co.com/yqD9qSw/Whats-App-Image-2024-12-07-at-1-27-31-PM-1.jpg",
       "https://i.ibb.co.com/Qkh3ntY/Whats-App-Image-2024-12-07-at-1-27-31-PM-2.jpg",
+      "https://i.ibb.co.com/BNGdtn3/Whats-App-Image-2024-12-13-at-2-06-41-AM.jpg",
     ],
   },
 ];
