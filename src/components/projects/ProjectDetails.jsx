@@ -33,8 +33,9 @@ const projectData = [
 
       "https://i.ibb.co.com/z6zbxx1/588bc5fe-5b92-4656-8afa-ba70828d3bff.jpg", //4
       " https://i.ibb.co.com/xCqzLfx/Whats-App-Image-2024-12-07-at-1-19-23-PM.jpg", //5
-      "https://i.ibb.co.com/QKV16dx/7636b477-a74c-45f3-a619-5666f06623c9.jpg", //6
-      "https://i.ibb.co.com/mvQdtWq/Whats-App-Image-2024-12-07-at-1-19-23-PM-1.jpg", //7
+      "https://i.ibb.co.com/JHm01P7/03894f18-67cb-45fd-8606-370489285729.jpg", //6
+      "https://i.ibb.co.com/QKV16dx/7636b477-a74c-45f3-a619-5666f06623c9.jpg", //7
+      "https://i.ibb.co.com/mvQdtWq/Whats-App-Image-2024-12-07-at-1-19-23-PM-1.jpg", //8
     ],
   },
   {

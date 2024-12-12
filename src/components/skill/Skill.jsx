@@ -308,17 +308,12 @@ const Skill = () => {
                 whileInView={{ x: 0, opacity: 1 }}
                 transition={{ duration: 0.5 }}
               >
-                Flutter is an open-source UI software development kit (SDK)
-                created by Google for building natively compiled applications
-                across multiple platforms, including mobile (iOS and Android),
-                web, and desktop (Windows, macOS, and Linux) from a single
-                codebase. It uses the Dart programming language and features a
-                rich set of pre-designed widgets for creating visually appealing
-                and high-performance user interfaces. Flutter's hot-reload
-                functionality enables developers to see changes in real-time,
-                enhancing productivity. It's widely used for its flexibility,
-                fast development cycle, and ability to deliver consistent
-                experiences across different platforms.
+                Strong communication skills developed through organizing events
+                as a member of the AIUB Performing Arts Club. I coordinated
+                effectively with team members and ensured everyone stayed
+                aligned with the objectives. I apply the same clear and concise
+                communication in professional and team settings to ensure smooth
+                collaboration.
               </motion.p>
             </div>
           </div>
