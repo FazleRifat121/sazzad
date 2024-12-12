@@ -9,12 +9,15 @@ import { MdOutlineSyncProblem } from "react-icons/md";
 import { FaTeamspeak } from "react-icons/fa6";
 import { SiCplusplus } from "react-icons/si";
 import { TbBrandCSharp } from "react-icons/tb";
-import { GiWeightLiftingUp } from "react-icons/gi";
+import { IoBulb } from "react-icons/io5";
 const Skill = () => {
   return (
     <div>
       <div className="border-b border-neutral-500 pb-4">
-        <h1 className="text-4xl text-center my-20">Skill</h1>
+        {/* technical skiil  */}
+        <h1 className="text-4xl text-center my-20">
+          Technical <span className="text-neutral-500">Skills</span>
+        </h1>
 
         {/* Flutter  */}
         <div className="flex flex-wrap">
@@ -194,7 +197,7 @@ const Skill = () => {
                 transition={{ duration: 0.5 }}
                 className="flex justify-center items-center flex-col gap-5"
               >
-                <GiWeightLiftingUp className="text-7xl"></GiWeightLiftingUp>
+                <IoBulb className="text-7xl"></IoBulb>
                 <h3 className="text-4xl">Adaptability</h3>
               </motion.div>
             </div>
