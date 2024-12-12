@@ -32,7 +32,7 @@ const Education = () => {
                 American International University - Bangladesh
                 <br />
                 <br />
-                2022 - Present
+                <span className="text-lg">2022 - Present</span>
               </motion.p>
             </div>
           </div>
@@ -63,9 +63,11 @@ const Education = () => {
                 Jamuna Sar Karkhana School & Collage
                 <br />
                 <br />
-                2019 - 2021
-                <br />
-                Group- Science
+                <span className="text-lg">
+                  2019 - 2021
+                  <br />
+                  Group- Science
+                </span>
               </motion.p>
             </div>
           </div>
@@ -96,9 +98,11 @@ const Education = () => {
                 Jamuna Sar Karkhana School & Collage
                 <br />
                 <br />
-                2017 - 2019
-                <br />
-                Group- Science
+                <span className="text-lg">
+                  2017 - 2019
+                  <br />
+                  Group- Science
+                </span>
               </motion.p>
             </div>
           </div>
