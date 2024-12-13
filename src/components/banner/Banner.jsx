@@ -45,7 +45,7 @@ const Banner = () => {
             variants={container(1.5)}
             initial="hidden"
             animate="visible"
-            className="py-6  "
+            className="py-6 text-[20.3px] "
           >
             As a passionate and dedicated Flutter developer, I aim to create
             innovative and user-friendly mobile applications that solve
