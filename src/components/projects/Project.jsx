@@ -23,7 +23,7 @@ const Project = ({ item }) => {
           whileInView={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.5 }}
         >
-          <h6 className="mb-6 font-semibold">{title}</h6>
+          <h6 className="mb-6 font-semibold text-xl">{title}</h6>
           <p className="mb-4 text-neutral-400">{description}</p>
         </motion.div>
       </div>
