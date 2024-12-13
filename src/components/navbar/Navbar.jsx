@@ -6,7 +6,7 @@ const Navbar = () => {
       <li>
         <NavLink
           to="/"
-          className="hover:text-3xl transition-transform duration-200 "
+          className="hover:text-2xl transition-transform duration-200 "
           end
         >
           Home
@@ -19,8 +19,8 @@ const Navbar = () => {
       </li> */}
       <li>
         <NavLink
-          to="education"
-          className="hover:text-3xl transition-transform duration-200  "
+          to="/education"
+          className="hover:text-2xl transition-transform duration-200  "
           end
         >
           Education
@@ -29,7 +29,7 @@ const Navbar = () => {
       <li>
         <NavLink
           to="/skill"
-          className="hover:text-3xl transition-transform duration-200 "
+          className="hover:text-2xl transition-transform duration-200 "
           end
         >
           Skills
@@ -38,7 +38,7 @@ const Navbar = () => {
       <li>
         <NavLink
           to="/projects"
-          className="hover:text-3xl transition-transform duration-200  "
+          className="hover:text-2xl transition-transform duration-200  "
           end
         >
           Project
@@ -47,7 +47,7 @@ const Navbar = () => {
       <li>
         <NavLink
           to="/exp"
-          className="hover:text-3xl transition-transform duration-200  "
+          className="hover:text-2xl transition-transform duration-200  "
           end
         >
           Experience
@@ -56,10 +56,10 @@ const Navbar = () => {
       <li>
         <NavLink
           to="/achievement"
-          className="hover:text-3xl transition-transform duration-200  "
+          className="hover:text-2xl transition-transform duration-200  "
           end
         >
-          Achievement
+          Achievements
         </NavLink>
       </li>
     </>
