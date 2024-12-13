@@ -29,8 +29,8 @@ const Education = () => {
                 transition={{ duration: 0.5 }}
               >
                 BSc. in Computer Science and Engineering <br />
-                American International University - Bangladesh
                 <br />
+                American International University - Bangladesh
                 <br />
                 <span className="text-lg">2022 - Present</span>
               </motion.p>
@@ -60,8 +60,8 @@ const Education = () => {
                 transition={{ duration: 0.5 }}
               >
                 Higher Secondary Certificate (HSC) <br />
-                Jamuna Sar Karkhana School & Collage
                 <br />
+                Jamuna Sar Karkhana School & Collage
                 <br />
                 <span className="text-lg">
                   2019 - 2021
@@ -95,8 +95,8 @@ const Education = () => {
                 transition={{ duration: 0.5 }}
               >
                 Secondary School Certificate (SSC) <br />
-                Jamuna Sar Karkhana School & Collage
                 <br />
+                Jamuna Sar Karkhana School & Collage
                 <br />
                 <span className="text-lg">
                   2017 - 2019
