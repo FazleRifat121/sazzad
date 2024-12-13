@@ -6,7 +6,7 @@ const Experience = () => {
     <div>
       <div>
         <div className="border-b border-neutral-500 pb-4">
-          <h1 className="text-4xl text-center my-20">Achievement</h1>
+          <h1 className="text-4xl text-center my-20">Experience</h1>
 
           {/* club  */}
           <div className="flex flex-wrap">

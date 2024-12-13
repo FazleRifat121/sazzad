@@ -35,7 +35,7 @@ const Banner = () => {
             variants={container(1)}
             initial="hidden"
             animate="visible"
-            className="text-2xl font-bold pt-6 bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text tracking-tight text-transparent"
+            className="text-3xl font-bold pt-6 bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text tracking-tight text-transparent"
           >
             A Flutter Mobile App Developer passionate about creating seamless,
             user-focused mobile experiences.

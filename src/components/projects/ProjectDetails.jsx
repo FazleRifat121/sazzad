@@ -67,7 +67,7 @@ const ProjectDetails = () => {
   }
 
   return (
-    <div className="container mx-auto max-w-7xl">
+    <div className="container mx-auto max-w-7xl mt-8">
       <div className="images grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mb-5">
         {project.imgs.length > 0 ? (
           project.imgs.map((img, index) => (

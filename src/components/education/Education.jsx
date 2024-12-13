@@ -28,7 +28,11 @@ const Education = () => {
                 whileInView={{ x: 0, opacity: 1 }}
                 transition={{ duration: 0.5 }}
               >
-                BSc. in Computer Science and Engineering <br />
+                <span className="text-2xl">
+                  {" "}
+                  BSc. in Computer Science and Engineering{" "}
+                </span>
+                <br />
                 <br />
                 American International University - Bangladesh
                 <br />
@@ -59,7 +63,10 @@ const Education = () => {
                 whileInView={{ x: 0, opacity: 1 }}
                 transition={{ duration: 0.5 }}
               >
-                Higher Secondary Certificate (HSC) <br />
+                <span className="text-2xl">
+                  Higher Secondary Certificate (HSC){" "}
+                </span>
+                <br />
                 <br />
                 Jamuna Sar Karkhana School & Collage
                 <br />
@@ -94,7 +101,10 @@ const Education = () => {
                 whileInView={{ x: 0, opacity: 1 }}
                 transition={{ duration: 0.5 }}
               >
-                Secondary School Certificate (SSC) <br />
+                <span className="text-2xl">
+                  Secondary School Certificate (SSC)
+                </span>{" "}
+                <br />
                 <br />
                 Jamuna Sar Karkhana School & Collage
                 <br />
