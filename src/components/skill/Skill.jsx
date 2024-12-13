@@ -1,4 +1,3 @@
-import React from "react";
 import { motion } from "framer-motion";
 import { FaJava } from "react-icons/fa";
 import { RiFlutterFill } from "react-icons/ri";
