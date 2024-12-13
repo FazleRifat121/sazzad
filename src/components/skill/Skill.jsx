@@ -109,10 +109,11 @@ const Skill = () => {
                 whileInView={{ x: 0, opacity: 1 }}
                 transition={{ duration: 0.5 }}
               >
-                Experienced in using C++ for competitive programming and
-                algorithm development. My skills include writing efficient,
-                high-performance code to solve complex problems, which
-                strengthens my logical thinking and coding efficiency.
+                Skilled in developing desktop applications and systems using C#.
+                I built an Inventory Management System with complete CRUD
+                functionalities, tackling challenges like database connectivity
+                and debugging effectively. My work in C# emphasizes clean code
+                and user-friendly interfaces.
               </motion.p>
             </div>
           </div>

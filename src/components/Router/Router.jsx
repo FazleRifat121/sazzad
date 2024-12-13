@@ -8,6 +8,7 @@ import Home from "../home/Home";
 import ProjectDetails from "../projects/ProjectDetails";
 import Skill from "../skill/Skill";
 import Education from "../education/Education";
+import Achievement from "../achievement/Achievement";
 
 function Router() {
   return (
@@ -25,6 +26,7 @@ function Router() {
           <Route path="education" element={<Education />} />
           <Route path="skill" element={<Skill />} />
           <Route path="projects" element={<Projects />} />
+          <Route path="achievement" element={<Achievement />} />
           <Route path="projects/:id" element={<ProjectDetails />} />
         </Route>
       </Routes>
