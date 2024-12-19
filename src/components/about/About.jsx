@@ -22,7 +22,7 @@ const About = () => {
         <div className="w-full lg:w-1/2">
           <div className="flex justify-center lg:justify-start">
             <motion.p
-              className="my-2 max-w-xl py-6 text-[20.3px]"
+              className="my-2 max-w-xl py-6 text-[20.3px] text-justify"
               initial={{ x: 100, opacity: 0 }}
               whileInView={{ x: 0, opacity: 1 }}
               transition={{ duration: 0.5 }}

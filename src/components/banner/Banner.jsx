@@ -35,7 +35,7 @@ const Banner = () => {
             variants={container(1)}
             initial="hidden"
             animate="visible"
-            className="text-3xl font-bold pt-6 bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text tracking-tight text-transparent"
+            className="text-3xl font-bold pt-6 bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text tracking-tight text-transparent  text-justify"
           >
             A Flutter Mobile App Developer passionate about creating seamless,
             user-focused mobile experiences.
@@ -45,7 +45,7 @@ const Banner = () => {
             variants={container(1.5)}
             initial="hidden"
             animate="visible"
-            className="py-6 text-[20.3px] "
+            className="py-6 text-[20.3px]  text-justify "
           >
             As a passionate and dedicated Flutter developer, I aim to create
             innovative and user-friendly mobile applications that solve
