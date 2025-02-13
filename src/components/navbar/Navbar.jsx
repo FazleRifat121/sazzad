@@ -91,8 +91,10 @@ const Navbar = () => {
           Sazzad
         </a>
       </div>
-      <div className="navbar-end hidden lg:flex">
-        <ul className="menu menu-horizontal px-1 text-xl">{list}</ul>
+      <div className="navbar-end hidden lg:flex w-full justify-end">
+        <ul className="menu menu-horizontal px-1 text-xl flex-nowrap">
+          {list}
+        </ul>
       </div>
     </div>
   );
